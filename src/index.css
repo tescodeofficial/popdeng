@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brand-text {
+  font-family: "Rubik Mono One", monospace;
+}
+
+.pop-click {
+  transform: scale(1.5);
+  transition: all 50ms ease-in-out;
+}
+
+.rot-1 {
+  transform: scale(2.2) rotate(-10deg);
+}
+
+.rot-2 {
+  transform: scale(2.2) rotate(-5deg);
+}
+
+.rot-3 {
+  transform: scale(2.2) rotate(0deg);
+}
+
+.rot-4 {
+  transform: scale(2.2) rotate(5deg);
+}
+
+.rot-5 {
+  transform: scale(2.2) rotate(10deg);
+}
+
+.rot-to {
+  transform: scale(1.5);
+}
